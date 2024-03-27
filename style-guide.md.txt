@@ -1,0 +1,49 @@
+font
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+Material icon
+
+``` html
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0..1,0" />
+```
+
+### Colors
+
+--white: #FFFFFF;
+--gold: #FFD700;
+--black: #000000;
+--blue: #0000FF;
+--red: #FF0000;
+--purple: #A020F0;
+
+
+font weight
+
+``` css
+--weight-bold: 700;
+--weight-semiBold: 600;
+--weight-regular: 400;
+```
+
+### Border Radius
+
+``` css
+--radius-small: 8px;
+--radius-medium: 12px;
+--radius-large: 16px;
+--radius-extra-large: 32px;
+--radius-full: 1000px;
+--radius-circle: 50%;
+```
+
+### Box Shadow
+
+``` css
+--shadow-1: 0px 2px 4px 0px #00000033;
+--shadow-2: 0px 5px 10px 0px #0000000D;
+--shadow-3: 0px 5px 10px 0px #00000033;
+--shadow-4: 0px 10px 20px 0px #0000001A;
+```

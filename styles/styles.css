@@ -1,0 +1,44 @@
+:root {
+    /*Color*/
+--white: #ffffff;
+--gold: #FFD700;
+--black: #000000;
+--blue: #0000FF;
+--red: #FF0000;
+--purple: #A020F0;
+/*Font weight*/
+--weight-bold: 700;
+--weight-semiBold: 600;
+--weight-regular: 400;
+/*Border Radius*/
+--radius-small: 8px;
+--radius-medium: 12px;
+--radius-large: 16px;
+--radius-extra-large: 32px;
+--radius-full: 1000px;
+--radius-circle: 50%;
+/*Box Shadow*/
+--shadow-1: 0px 2px 4px 0px #00000033;
+--shadow-2: 0px 5px 10px 0px #0000000D;
+--shadow-3: 0px 5px 10px 0px #00000033;
+--shadow-4: 0px 10px 20px 0px #0000001A;
+
+}
+
+/*Header*/
+
+/*Header*/
+
+/*Icon-Btn*/
+.icon-btn {
+    height: 40px;
+    width: 40px;
+    display: grid;
+    place-items: center;
+    background-color: var(--white);
+    border-radius: var(--radius-small);
+    box-shadow: var(--shadow-3);
+  }
+  
+
+/*Icon-Btn*/
