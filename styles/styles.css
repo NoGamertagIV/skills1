@@ -6,10 +6,15 @@
 --blue: #0000FF;
 --red: #FF0000;
 --purple: #A020F0;
+--grey: #DADFE5;
+
+
 /*Font weight*/
 --weight-bold: 700;
 --weight-semiBold: 600;
 --weight-regular: 400;
+
+
 /*Border Radius*/
 --radius-small: 8px;
 --radius-medium: 12px;
@@ -17,6 +22,8 @@
 --radius-extra-large: 32px;
 --radius-full: 1000px;
 --radius-circle: 50%;
+
+
 /*Box Shadow*/
 --shadow-1: 0px 2px 4px 0px #00000033;
 --shadow-2: 0px 5px 10px 0px #0000000D;
@@ -25,7 +32,88 @@
 
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 /*Header*/
+
+.header {
+  background-color: #f4f4f4;
+  box-shadow: var(--shadow-3);
+  position: fixed;
+  top: 0;
+  left: 0; 
+  width: 100%;
+  height: 100px;
+  z-index: 4;
+  
+}
+
+.header .container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.header.active {
+  animation: slide_in 500ms ease forwards; 
+}
+
+@keyframes slide_in {
+  0% {transform: translateY(-100%);}
+  100% {transform: translateY(0);}
+}
+
+.navbar {
+  position: absolute;
+  top: 85%;
+  right: 16px;
+  background-color: var(--white);
+  min-width: 260px;
+  padding: 10px;
+  border-radius: var(--radius-large);
+ visibility: hidden;
+  opacity: 0;
+  scale: 0.4; 
+  transition: var(--transition-duration-quick) var(--transition-duration-quick);
+  box-shadow: var(--shadow-1);
+  transform-origin: top right;
+  z-index: 4;
+}
+
+.navbar.active {
+  visibility: visible;
+  opacity: 1;
+  scale: 1;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: var(--black);
+  font-family: 'Lora', sans-serif;
+  font-style: italic;
+}
+
+.navbar-link:hover {
+  color: var(--blue);
+}
+
+ul{
+  list-style-type: none;
+  display: grid;
+  justify-items: center;
+  gap: 12px;
+}
+.nav-toggle-btn .close,
+.nav-toggle-btn.active .open {display: none;}
+
+.nav-toggle-btn .open,
+.nav-toggle-btn.active .close {display: block;}
 
 /*Header*/
 
@@ -38,7 +126,11 @@
     background-color: var(--white);
     border-radius: var(--radius-small);
     box-shadow: var(--shadow-3);
+    border: none;
+    margin-right: 10px;
   }
   
-
+.icon-btn:hover, :focus-visible {
+  background-color: var(--grey);
+cursor: pointer;}
 /*Icon-Btn*/
