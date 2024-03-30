@@ -143,6 +143,44 @@ ul{
 }
 /*Icon-Btn*/
 
+/*Footer*/
+
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-image: url(../assets/background1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.container {
+  max-width: 1100px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  width: 100%;
+}
+
+.social {
+  margin: auto 25%;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  line-height: 1px;
+}
+
+a:hover {
+  color: var(--blue);
+}
+/*Footer*/
+
 /*Media Query*/
 @media (min-width: 992px) {
   .nav-toggle-btn {
@@ -166,3 +204,4 @@ ul{
 }
 
 /*Media Query*/
+
