@@ -1,3 +1,73 @@
-.head {
-    
+:root {
+    /*Color*/
+--white: #ffffff;
+--gold: #FFD700;
+--black: #000000;
+--blue: #0000FF;
+--red: #FF0000;
+--purple: #A020F0;
+--grey: #DADFE5;
+
+
+/*Font weight*/
+--weight-bold: 700;
+--weight-semiBold: 600;
+--weight-regular: 400;
+
+
+/*Border Radius*/
+--radius-small: 8px;
+--radius-medium: 12px;
+--radius-large: 16px;
+--radius-extra-large: 32px;
+--radius-full: 1000px;
+--radius-circle: 50%;
+
+
+/*Box Shadow*/
+--shadow-1: 0px 2px 4px 0px #00000033;
+--shadow-2: 0px 5px 10px 0px #0000000D;
+--shadow-3: 0px 5px 10px 0px #00000033;
+--shadow-4: 0px 10px 20px 0px #0000001A;
+
 }
+
+.head {
+    position: relative;
+    top: 100px;
+    text-align: center;
+    color: var(--black);
+    font-family: 'Lora', sans-serif;
+    font-style: italic;
+}
+
+.section {padding-block-start: 110px;}
+
+.img-holder {
+    overflow: hidden;
+}
+
+.card {
+    border-radius: var(--radius-large);
+    overflow: hidden;
+    box-shadow: var(--shadow-2);
+    width: 500px;
+    cursor: pointer;
+}
+
+.card:where(:hover, :focus-within) {box-shadow: var(--shadow-4);}
+
+.card-content {
+    display: flex;
+}
+
+h3 {
+    margin-left: 10px;
+}
+
+.title-small {
+    margin: 3px 0 0 10px;
+}
+
+
+
