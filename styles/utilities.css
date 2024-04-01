@@ -208,7 +208,7 @@ a:hover {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: repeat(3, 1fr);
-  grid-gap: 15px;
+  gap: 5px;
 }
 
 .container {
@@ -242,4 +242,3 @@ a:hover {
 }
 
 /*Media Query*/
-
