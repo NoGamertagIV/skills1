@@ -53,6 +53,7 @@
 
 .img-holder {
     overflow: hidden;
+    height: 215px;
 }
 
 .card {
