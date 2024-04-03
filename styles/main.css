@@ -53,7 +53,7 @@
 
 .img-holder {
     overflow: hidden;
-    height: 215px;
+    height: 300px;
 }
 
 .card {
@@ -79,7 +79,7 @@
 }
 
 .container {
-    display: flex;
+    
     margin-bottom: 50px;
 }
 
@@ -126,6 +126,17 @@
 .collection {
     margin-top: 120px;
 }
+
+/*About us*/
+figcaption {
+    font-family: 'Lora', sans-serif;
+    font-style: italic;
+    display: grid;
+    text-align: center;
+}
+
+
+/*About us*/
 
 @media  (max-width: 1108px) {
     .art-list {
