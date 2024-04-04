@@ -204,7 +204,7 @@ a:hover {
 
 /*Media Query*/
 
-@media (max-width: 426px) {
+@media (min-width: 426px) {
 .grid {
   display: grid;
   grid-template-columns: auto;
@@ -240,6 +240,8 @@ a:hover {
 .navbar-link {
   cursor: pointer;
 }
+
+
 }
 
 /*Media Query*/
