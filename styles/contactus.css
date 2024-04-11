@@ -88,7 +88,7 @@ form .signin {
 
 /* Tablet and larger */
 @media (min-width: 768px) {
-    .container, .signin {
+    .container-2, .signin {
         width: 75%;
         margin: 0 auto;
     }
@@ -105,7 +105,7 @@ form .signin {
 
 /* Desktop and larger */
 @media (min-width: 1024px) {
-    .container, .signin {
+    .container-2, .signin {
         width: 50%;
     }
 }
