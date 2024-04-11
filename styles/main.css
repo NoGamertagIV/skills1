@@ -53,7 +53,11 @@
 
 .img-holder {
     overflow: hidden;
+<<<<<<< HEAD
     height: 275px;
+=======
+    cursor: auto;
+>>>>>>> 88b11828f28adf8c2f7eda47516ebf6443438588
 }
 
 .card {
@@ -127,17 +131,61 @@
     margin-top: 120px;
 }
 
-@media  (max-width: 1108px) {
-    .art-list {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+/*About us*/
 
-    h1 {
-        margin-left: 60px;
-    }
+.staff {
+    overflow: hidden;
+    height: 300px;
+    cursor: auto;
 }
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lora', sans-serif;
+    font-style: italic;
+    font-size: 36px;
+    margin: 50px;
+}
+
+figcaption {
+    font-family: 'Lora', sans-serif;
+    font-style: italic;
+    display: grid;
+    text-align: center;
+    gap: 12px;
+}
+
+
+
+.table {
+    display: flex;
+    justify-content: center;
+   width: 1900px ;
+   height: 400px;
+}
+
+.schedule {
+    border-collapse: collapse;
+}
+
+ th, td{
+   
+    border: 1px solid #000000;
+} 
+
+td {
+    text-align: center;
+    font-family: 'Lora', sans-serif;
+    font-style: italic;  
+}
+
+.text {
+    margin-left: 70px;
+}
+
+
+/*About us*/
 
 @media (min-width:428px) {
     .description1,
@@ -161,6 +209,32 @@
     .head {
         margin-right: 50px;
     }
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .art-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 100px;
+        gap: 150px;
+    }
+}
+
+@media  (max-width: 1108px) {
+    .art-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    h1 {
+        margin-left: 60px;
+    }
+
+
 }
 
 
