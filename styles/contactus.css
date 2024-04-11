@@ -74,9 +74,19 @@ form .signin {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); /* Adjust as needed */
 }
 
-/* Mobile styles */
+
 /* Mobile styles */
 @media (max-width: 767px) {
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    form {
+       width: 300px;
+    }
     .frame {
         display: block;
         margin: 0 auto;
